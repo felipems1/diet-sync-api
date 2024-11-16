@@ -1,0 +1,27 @@
+{
+  "name": "diet-sync-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "eslint": "^8.57.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
